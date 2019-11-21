@@ -3,7 +3,7 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    <img src="{{ page.image }}" class="album-cover">
+    <img src="{{ page.image | relative_url }}" class="album-cover">
     <h1>{{ page.ranking }}</h1>
     <h1>{{ page.artist }} – <i>{{ page.title }}</i></h1>
     {{ content }}
