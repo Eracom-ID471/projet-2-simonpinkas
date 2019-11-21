@@ -5,10 +5,10 @@
   <body>
     {% include header.html %}
    {% for album in site.albums %}
-   <img class="album-cover" src="{{ album.image }}" />
+   <img class="album-cover" src="{{ album.image | relative_url }}" />
    <p>{{ album.short_description }}</p>
     <h1 class="album-title">{{album.ranking}}. 
-      <a href="{{ album.url }}">{{ album.title }}</a>
+      <a href="{{ album.url | relative_url }}">{{ album.title }}</a>
     </h1>
    {% endfor %}
 
