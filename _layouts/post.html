@@ -1,22 +1,12 @@
----
-layout: default
----
-<article>
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-    <p>
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        <span>{{ page.author | escape }}</span>
-      {%- endif -%}</p>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <img src="{{ page.image }}" class="album-cover">
+    <h1>{{ page.ranking }}</h1>
+    <h1>{{ page.artist }} – <i>{{ page.title }}</i></h1>
     {{ content }}
-  </div>
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+    {% include footer.html %}
+  </body>
+</html>
