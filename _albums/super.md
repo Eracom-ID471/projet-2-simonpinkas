@@ -5,6 +5,5 @@ title: Super
 artist: Didier
 excerpt: ''
 image: ''
-published: false
 
 ---
