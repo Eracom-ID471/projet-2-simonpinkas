@@ -1,0 +1,22 @@
+---
+label: Albums
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: ranking
+  label: ranking
+- type: text
+  name: title
+  label: title
+- type: text
+  name: artist
+  label: artist
+- type: text
+  name: excerpt
+  label: excerpt
+- type: file
+  name: image
+  label: image
