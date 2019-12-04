@@ -2,7 +2,7 @@
 title: An Obelisk
 layout: post
 ranking: "5"
-artist: Titus Andronicus
+artist: Super
 excerpt: bla bla bla
 image: "/assets/img/albums/5.jpg"
 
