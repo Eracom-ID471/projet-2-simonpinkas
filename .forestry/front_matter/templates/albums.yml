@@ -21,4 +21,5 @@ fields:
   name: image
   label: image
 pages:
+- _albums/excellent.md
 - _albums/super.md
