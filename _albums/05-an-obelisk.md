@@ -1,12 +1,13 @@
 ---
 title: An Obelisk
 layout: post
-ranking: 5
+ranking: "4"
 artist: Titus Andronicus
 excerpt: bla bla bla
 image: "/assets/img/albums/5.jpg"
----
+published: false
 
+---
 Qui tempor ex consequat irure dolore pariatur eu. Dolore est duis quis enim mollit nulla proident non velit pariatur laboris. Ipsum sunt deserunt incididunt est labore magna voluptate adipisicing nisi esse reprehenderit aute magna.
 
 Reprehenderit reprehenderit dolore est exercitation. Elit in enim Lorem dolor aliquip deserunt commodo pariatur cupidatat dolor sit reprehenderit. Ullamco exercitation enim ea aliquip amet reprehenderit aliquip laboris quis ut cupidatat velit. Non adipisicing dolore nulla pariatur enim anim veniam quis id labore sit et qui labore.
