@@ -5,7 +5,6 @@ ranking: "5"
 artist: Titus Andronicus
 excerpt: bla bla bla
 image: "/assets/img/albums/5.jpg"
-published: false
 
 ---
 Qui tempor ex consequat irure dolore pariatur eu. Dolore est duis quis enim mollit nulla proident non velit pariatur laboris. Ipsum sunt deserunt incididunt est labore magna voluptate adipisicing nisi esse reprehenderit aute magna.
